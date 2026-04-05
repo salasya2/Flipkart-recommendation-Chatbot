@@ -15,7 +15,7 @@ spec:
       labels:
         app: flask
     spec:
-      container:
+      containers:
       - name: flask-container
         image: flask-app:latest
         imagePullPolicy: ifNotPresent
